@@ -3,31 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>form</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
 
-  <body style ="background-color: #D8B6A4 ;">
+
+
+
 
     <h1 style="text-align:center"><em><strong>FORM</strong></em></h1>
     <hr>
+
     <form action="mailto:abhinav3941@gmail.com?subject" method="post" enctype="text/plain">email me</a> <br >
-      <label>your name :</label>
-      <input type="text" name="my name" value="">
-      <input type="checkbox" name="" value=""><br>
-      <label>your photo :</label>
-      <input type="file" name="my pic" value=""><br>
-      <label>your phone number </label>
-      <input type="number" name="my number" value=""><br>
-      <label> date of birth:</label>
-      <input type="date" name="my DOB" value=""><br>
-      <label>email</label>
-      <input type="email" name="my email" value="">
-      <label>password</label>
-      <input type="password" name="" value="">
-      <input type="submit" name="" ><br>
-      <label>your message</label><br>
-      <textarea name="my message" rows="10" cols="50"></textarea>
+      <table cellspacing="10">
+        <tr>
+          <td>
+            <label>your name :</label>
+          </td>
+          <td>
+            <input type="text" name="my name" value="">
+            <input type="checkbox" name="" value=""><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+              <label>your photo :</label>
+          </td>
+          <td>
+              <input type="file" name="my pic" value=""><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+              <label>your phone number </label>
+          </td>
+          <td>
+                <input type="number" name="my number" value=""><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+                <label> date of birth:</label>
+          </td>
+          <td>
+                <input type="date" name="my DOB" value=""><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+                <label>email</label>
+          </td>
+          <td>
+                <input type="email" name="my email" value="">
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+                  <label>password</label>
+          </td>
+          <td>
+                <input type="password" name="" value="">
+          </td>
+        </tr>
 
 
+
+
+
+</table>
+<label>your message</label><br>
+<textarea name="my message" rows="10" cols="50"></textarea>
+  <input type="submit" name="" ><br>
     </form>
   </body>
 </html>
